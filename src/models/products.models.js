@@ -12,7 +12,7 @@ export function obtenerProducto(id) {
         console.log("Document data:", docSnap.data());
         res({ ...docSnap.data(), id: docSnap.id });
       } else {
-        console.log("No such document!");
+        console.log("Documento no encontrado");
         res()
       }
     } catch (error) {

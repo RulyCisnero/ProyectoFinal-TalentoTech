@@ -3,7 +3,6 @@ import { obtenerProducto, obtenerProductos, actualizarProducto, agregarProducto,
 export const getAllProductsService = async () => {
   return (
     new Promise(async (res, rej) => {
-      console.log("test2 dentro de servicio")
       try {
         const productos = await obtenerProductos()
         res(productos);
