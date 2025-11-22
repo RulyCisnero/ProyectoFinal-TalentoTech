@@ -56,7 +56,7 @@ export const updateProduct = async (req, res) => {
         const id = req.params.id;
         const producto = req.body;
 
-        if (Object.keys(product).length === 0) {
+        if (Object.keys(producto).length === 0) {
             return res.status(400).json({ message: "El body está vacío" });
         }
         const updatedProduct = await productService.updateProductService(id, producto);
