@@ -4,35 +4,35 @@ También incluye autenticación con JWT y middleware propios.
 
 🚀 Tecnologías utilizadas
 
--Node.js
+- Node.js
 
--Express
+- Express
 
--Firebase / Firestore
+- Firebase / Firestore
 
--JSON Web Tokens (JWT)
+- JSON Web Tokens (JWT)
 
--CORS
+- CORS
 
--Vercel (deploy)
+- Vercel (deploy)
 
 📌 Funcionalidades principales
 
--Login y generación de token JWT
+- Login y generación de token JWT
 
--CRUD completo de productos
+- CRUD completo de productos
 
--Middleware global para:
+- Middleware global para:
 
-*Validar token
+* Validar token
 
-*Manejar rutas inexistentes (404)
+* Manejar rutas inexistentes (404)
 
-*Loguear cada request
+* Loguear cada request
 
-*Validación de body vacío
+* Validación de body vacío
 
-*Respuestas claras y estructuradas según cada caso
+* Respuestas claras y estructuradas según cada caso
 
 🔐 Autenticación
 
@@ -115,4 +115,5 @@ El proyecto está listo para deploy.
 Cisnero Raul Eduardo
 
 Proyecto desarrollado como parte de la formación en Backend – Talento Tech.
+
 
