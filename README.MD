@@ -5,34 +5,22 @@ También incluye autenticación con JWT y middleware propios.
 🚀 Tecnologías utilizadas
 
 - Node.js
-
 - Express
-
 - Firebase / Firestore
-
 - JSON Web Tokens (JWT)
-
 - CORS
-
 - Vercel (deploy)
 
 📌 Funcionalidades principales
 
 - Login y generación de token JWT
-
 - CRUD completo de productos
-
 - Middleware global para:
-
-* Validar token
-
-* Manejar rutas inexistentes (404)
-
-* Loguear cada request
-
-* Validación de body vacío
-
-* Respuestas claras y estructuradas según cada caso
+ * Validar token
+ * Manejar rutas inexistentes (404)
+ * Loguear cada request
+ * Validación de body vacío
+ * Respuestas claras y estructuradas según cada caso
 
 🔐 Autenticación
 
@@ -42,12 +30,13 @@ Todos los endpoints de productos requieren enviar un token válido:
 Authorization: Bearer <token>
 ```
 
-El token se obtiene haciendo un POST al endpoint de login.
+El token se obtiene haciendo un **POST** al endpoint de login.
+**/login**
 
 En este caso las credenciales de usuario estan hardcodeadas:
 ```
 email: "test@gmail.com" 
-password === "123456"
+password :"123456"
 ```
 
 🛠️ Scripts disponibles
@@ -74,46 +63,39 @@ VITE_APPID
 Estas reemplazan los valores del archivo config.js.
 
 📦 Endpoints principales
-GET /api/products
-
+##### GET /api/products
 Obtiene todos los productos.
 
-GET /api/products/:id
-
+##### GET /api/products/:id
 Devuelve un producto por ID.
 
-POST /api/products/create
-
+##### POST /api/products/create
 Crea un nuevo producto.
 
-PUT /api/products/update/:id
-
+##### PUT /api/products/:id
 Actualiza un producto existente.
 
-DELETE /api/products/:id
-
+##### DELETE /api/products/:id
 Elimina un producto por su ID.
 
-✔ Estado del proyecto
 
+### ✔ Estado del proyecto
 Todas las funcionalidades fueron testeadas con Postman:
 
-Token válido / inválido / ausente
+- Token válido / inválido / ausente
 
-CRUD completo
+- CRUD completo
 
-Manejo de errores
+- Manejo de errores
 
-Validación de body vacío
+- Validación de body vacío
 
-IDs inexistentes
+- IDs inexistentes
 
-El proyecto está listo para deploy.
 
 🧑‍💻 Autor
 
 Cisnero Raul Eduardo
 
 Proyecto desarrollado como parte de la formación en Backend – Talento Tech.
-
 
