@@ -52,12 +52,11 @@ Project → Settings → Environment Variables
 
 Variables utilizadas:
 ```
-VITE_APIKEY
-VITE_AUTHDOMAIN
-VITE_PROJECTID
-VITE_STORAGEBUCKET
-VITE_MESSAGINGSENDERID
-VITE_APPID
+FIREBASE_API_KEY
+FIREBASE_AUTH_DOMAIN
+FIREBASE_STORAGE_BUCKET
+FIREBASE_APP_ID
+SECRET_KEY
 ```
 
 Estas reemplazan los valores del archivo config.js.
@@ -98,4 +97,5 @@ Todas las funcionalidades fueron testeadas con Postman:
 Cisnero Raul Eduardo
 
 Proyecto desarrollado como parte de la formación en Backend – Talento Tech.
+
 
